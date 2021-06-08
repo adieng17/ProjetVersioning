@@ -1,0 +1,22 @@
+menu = {}
+menu['1']="" 
+menu['2']=""
+menu['3']=""
+menu['4']="Exit"
+  while True: 
+    options=menu.keys()
+    options.sort()
+      for entry in options: 
+        print entrée, menu[entrée]
+
+  selection=raw_input("Choisissez entre 1 et 4 :") 
+    if selection =='1': 
+      print "add" 
+    elif selection == '2': 
+      print "delete"
+    elif selection == '3':
+      print "find" 
+    elif selection == '4': 
+      break
+    else: 
+      print "Mauvaise entrée!" 
